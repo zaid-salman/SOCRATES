@@ -16,4 +16,4 @@ def set_player(name):
     player = name
 
 def red_italic(text):
-    return "\033[91m\x1B[3m{text}\x1B[0m\033[0m"
+    return f"\033[91m\x1B[3m{text}\x1B[0m\033[0m"
