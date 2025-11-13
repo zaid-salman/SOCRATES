@@ -3,7 +3,7 @@ import controls_page
 import day1
 
 def menu():
-    menu_input = input("\nGAMING\n\nOPTIONS: START (enter) CONTROLS (c) ")
+    menu_input = input("\nSOCRATES\n\nOPTIONS: START (enter) CONTROLS (c) ")
     
     if menu_input != "c":
         welcome()
